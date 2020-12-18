@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{   if(sizeof(int64_t))
+{   if(sizeof(intmax_t) == 8)
     {
         cout << "komp 64 bitowy" << endl;
     }
